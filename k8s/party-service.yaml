@@ -18,7 +18,7 @@ spec:
       containers:
         - name: party-service
           image: aandrosiuk/party-service:v1
-          imagePullPolicy: Always
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
 
