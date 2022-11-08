@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: party-service
-          image: aandrosiuk/party-service:v1
+          image: gog1/party-service:1.0
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
