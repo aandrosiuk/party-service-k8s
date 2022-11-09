@@ -1,0 +1,7 @@
+POST http://localhost:8080/party
+Content-Type: application/json
+
+{
+  "firstName": "Tanya",
+  "lastName": "Androsiuk"
+}
